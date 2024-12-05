@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Maintenance</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="​Cost Effectiveness Monitoring Optimized" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="csrf-token" content="{{ csrf_token }}" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="CEMO - ​Cost Effectiveness Monitoring Optimized" />
+        <meta property="og:site_name" content="CEMO | ​Cost Effectiveness Monitoring Optimized" />
+        <link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
+        <link rel="shortcut icon" href="{% static 'media/logos/cemo.png' %}" />
+
+        <!--begin::Fonts (mandatory for all pages)-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
+        <!--end::Fonts-->
+
+        <!--begin::Vendor Stylesheets (used for this page only)-->
+        <link href="{% static 'plugins/custom/fullcalendar/fullcalendar.bundle.css' %}" rel="stylesheet"
+            type="text/css" />
+        <link href="{% static 'plugins/custom/datatables/datatables.bundle.css' %}" rel="stylesheet" type="text/css" />
+        <!--end::Vendor Stylesheets-->
+
+        <!--begin::Global Stylesheets Bundle (mandatory for all pages)-->
+        <link href="{% static 'plugins/global/plugins.bundle.css' %}" rel="stylesheet" type="text/css" />
+        <link href="{% static 'css/style.bundle.css' %}" rel="stylesheet" type="text/css" />
+        <!--end::Global Stylesheets Bundle-->
+    </head>
+    <style>
+        body {
+            background-image: url('/static/media/logos/644.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            padding: 20px;
+            background-color: rgba(12, 12, 12, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+
+            }
+        }
+
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            font-family: "Fantasy";
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            text-align: justify;
+            color: #fff;
+            font-family: "Garamond";
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+    
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .input-token {
+            width: 300px;
+            justify-content: center;
+            display: flex;
+        }
+
+        .token-digit {
+            width: 40px;
+            /* Lebar setiap input */
+            text-align: center;
+            /* Rata tengah teks */
+            margin: 0 5px;
+            /* Margin antara input */
+        }
+    </style>
+</head>
+
+<body>
+    <!--begin::Authentication - Signup Welcome Message -->
+    <div class="d-flex flex-column flex-center flex-column-fluid">
+        <!--begin::Content-->
+        <div class="d-flex flex-column flex-center text-center p-10">
+            <!--begin::Wrapper-->
+            <div class="wrapper">
+                <div class="container">
+                    <!--begin::Title-->
+                    <h1>Maintenance </h1>
+                    <!--end::Title-->
+                    <!--begin::Text-->
+                    <p class="fw-semibold fs-6 text-gray-500 mb-7">Something went wrong! Please try again later.</p>
+                    <!--end::Text-->
+                    <!--begin::Illustration-->
+                    <div class="mb-11">
+                        <img src="static/media/illustrations/dozzy-1/5.png'"class="mw-100 mh-300px theme-light-show" alt="" />
+                  
+                    </div>
+                    <!--end::Illustration-->
+
+                </div>
+            </div>
+            <!--end::Wrapper-->
+        </div>
+        <!--end::Content-->
+    </div>
+    <!--end::Authentication - Signup Welcome Message-->
+</body>
+
+</html>
